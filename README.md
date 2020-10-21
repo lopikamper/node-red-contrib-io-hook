@@ -21,11 +21,16 @@ scanning of keyboard strokes and mouse clicks. Other messages are discarded.
 Output: msg.topic is either "keyboard" or "mouse" following by msg.payload typeof number with number of keystroke or number of button clicked on mouse.<br>
 When the control message is recieved, node sends message about changed state if command is correct with msg.topic "info".
 
+![](.images/example.png)
+
+
 # Author
 
 Copyright 2020 Bc. Jan Janovský
+
 Faculty of Mechanical Engineering
+
 Czech Technical University in Prague
 
-License
+# License
 Apache-2.0
