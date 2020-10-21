@@ -28,8 +28,8 @@ scanning of keyboard strokes and mouse clicks. Other messages are discarded.
 Output: msg.topic is either "keyboard" or "mouse" following by msg.payload typeof number with number of keystroke or number of button clicked on mouse.<br>
 When the control message is recieved, node sends message about changed state if command is correct with msg.topic "info".
 
-![Example](/images/example.png)
-Format: ![Alt Text](url)
+![Example](https://raw.githubusercontent.com/lopikamper/node-red-contrib-io-hook/tree/main/images/example.png)
+
 
 # What's new ?
 
