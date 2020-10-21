@@ -11,6 +11,13 @@ npm install node-red-contrib-io-hook
 
 ```
 
+# Installation of dependency
+
+```bash
+npm install iohook
+
+```
+
 # Information
 
 Simple node to catch key strokes on your keyboard and mouse.
@@ -21,8 +28,18 @@ scanning of keyboard strokes and mouse clicks. Other messages are discarded.
 Output: msg.topic is either "keyboard" or "mouse" following by msg.payload typeof number with number of keystroke or number of button clicked on mouse.<br>
 When the control message is recieved, node sends message about changed state if command is correct with msg.topic "info".
 
-![](.images/example.png)
+![Example](/images/example.png)
+Format: ![Alt Text](url)
 
+# What's new ?
+
+* 0.1.2
+  * Updated documentation
+* 0.1.1
+  * Now you can enable/disable node with msg.topic = "state"
+  * Updated documentation
+* 0.0.1
+  * Published on npm and Node-RED flows
 
 # Author
 
